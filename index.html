@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BIT course homework task</title>
+        <link href="dist/output.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main class="m-4 p-4 shadow rounded-lg">
+            <section class="flex flex-col gap-3 p-4">
+                <div class="text-center text-xl font-bold text-blue-700">
+                    Generate random number and assign them to first categories!
+                </div>
+                <div>
+                    <button
+                        type="button"
+                        class="block w-full shadow-lg bg-gradient-to-br from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-900 text-white rounded-md focus:ring-blue-500 focus:ring focus:ring-offset-2 focus:ring-offset-white"
+                        id="generate-random-number-first"
+                    >
+                        <div class="hover:scale-110 py-1">Generate</div>
+                    </button>
+                </div>
+                <div
+                    class="text-md bg-gradient-to-br from-green-500 to-green-800 text-white p-3 rounded-md shadow-md hidden"
+                    id="generated-results-first"
+                ></div>
+            </section>
+            <section class="flex flex-col gap-3 p-4">
+                <div class="text-center text-xl font-bold text-blue-700">
+                    Generate random number and assign them to second categories!
+                </div>
+                <div>
+                    <button
+                        type="button"
+                        class="block w-full shadow-lg bg-gradient-to-br from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-900 text-white rounded-md focus:ring-blue-500 focus:ring focus:ring-offset-2 focus:ring-offset-white"
+                        id="generate-random-number-second"
+                    >
+                        <div class="hover:scale-110 py-1">Generate</div>
+                    </button>
+                </div>
+                <div
+                    class="text-md bg-gradient-to-br from-green-500 to-green-800 text-white p-3 rounded-md shadow-md hidden"
+                    id="generated-results-second"
+                ></div>
+            </section>
+        </main>
+        <script src="assets/js/general.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
